@@ -30,4 +30,5 @@ module "s3_module" {
   s3-bucket-versioning        = "Disabled"
   s3-bucket-encrypt           = true
   
+  
 }
