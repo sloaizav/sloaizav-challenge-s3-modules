@@ -58,5 +58,6 @@ data "aws_iam_policy_document" "allow_access" {
     actions = ["s3:GetObject","s3:PutObject"]
 
     resources = ["arn:aws:s3:::${var.s3-bucket-name}/*"]
+    
     }
 }
